@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="cadastro-container">
+        <h2>Criar Conta</h2>
+        <form>
+            <div class="cadastro-input-group">
+                <input type="text" name="razao-social" placeholder="DIGITE A RAZÃO SOCIAL" required>
+            </div>
+
+            <div class="cadastro-input-group">
+                <input type="text" name="nome-fantasia" placeholder="DIGITE FANTASIA" required>
+            </div>
+            
+            <div class="cadastro-input-group">
+                <input type="text" name="CNPJ" placeholder="DIGITE O CNPJ" required>
+            </div>
+            
+            <div class="cadastro-input-group">
+                <input type="tel" name="telefone" placeholder="DIGITE TELEFONE" pattern="\d*" inputmode="numeric">
+            </div>
+
+            <div  class="cadastro-input-group">
+                <select name="tipo-empresa" required>
+                    <option value="" disabled selected hidden>Selecione o tipo de empresa</option>
+                    <option value="comercio">Comércio</option>
+                    <option value="servico">Prestador de Serviço</option>
+                    <option value="industria">Indústria</option>
+                    <option value="agropecuaria">Agropecuária</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <div class="cadastro-input-group">
+                <input type="password" name="senha" placeholder="DIGITE UMA SENHA" required>
+            </div>
+
+            <div class="cadastro-input-group">
+                <input type="password" nome="confirme-senha" placeholder="CONFIRME A SENHA" required>
+            </div>
+
+            <button type="submit" class="cadastro-botao">Enviar</button>
+        </form>
+    
+</body>
+</html>
