@@ -64,12 +64,12 @@ body {
    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.input-group-login{
+.login-input-group{
    position: relative;
    margin-bottom: 30px;
 }
 
-.input-group-login input{
+.login-input-group input{
    width: 100%;
    padding: 15px 20px;
    background: rgba(224, 235, 224, 0.74);
@@ -82,16 +82,16 @@ body {
    transition: all 0.3s ease;
 }
 
-.input-group-login input::placeholder {
+.login-input-group input::placeholder {
    color: rgba(28, 27, 27, 0.419);
 }
 
-.input-group-login input:focus {
+.login-input-group input:focus {
    background: rgba(255, 255, 255, 0.3);
    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.relembrar-senha {
+.login-relembrar-senha {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -100,29 +100,29 @@ body {
    color: rgba(255, 255, 255, 0.8)
 }
 
-.relembrar-senha label {
+.login-relembrar-senha label {
    display: flex;
    align-content: center;
    cursor: pointer;
 }
 
-.relembrar-senha input{
+.login-relembrar-senha input{
    margin-right: 8px;
    accent-color: #fff;
 }
 
-.relembrar-senha a {
+.login-relembrar-senha a {
    color: #fff;
    text-decoration: none;
    transition: all 0.3s ease;
 }
 
-.relembrar-senha a:hover{
+.login-relembrar-senha a:hover{
    color: rgba(1, 69, 1, 0.816);
    text-decoration: underline;
 }
 
-.botao-login {
+.login-botao {
    width: 60%;
    display: block;
    margin: 0 auto;
@@ -137,27 +137,27 @@ body {
    transition: all 0.3s ease;
 }
 
-.botao-login:hover {
+.login-botao:hover {
    background: rgba(1, 98, 1, 0.4);
    transform: translateY(-3px);
    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.link-registro{
+.login-link-registro{
    text-align: center;
    margin-top: 25px;
    color: rgba(255, 255, 255, 0.8);
    font-size: 14px;
 }
 
-.link-registro a {
+.login-link-registro a {
    color: #fff;
    font-weight: 600;
    text-decoration: none;
    transition: all 0.3s ease;
 }
 
-.link-registro a:hover{
+.login-link-registro a:hover{
    color: rgba(1, 69, 1, 0.816);
    text-decoration: underline;
 }
